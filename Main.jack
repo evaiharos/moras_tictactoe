@@ -1,0 +1,22 @@
+class Main {
+    function void main() {
+        var int key;
+        let key = 0;
+
+        do Board.openingScreen();
+
+        // Čekaj pritisak tipke Space
+        while (key = 0) {
+            let key = Keyboard.keyPressed();
+    
+            // Provjeri da li je pritisnuta tipka Space (ASCII 32)
+            if (~(key = 32)) {
+                let key = 0;  // Resetiraj ako nije Space
+            }
+        }
+
+        do Board.drawBoard();
+        do gameloop.startGame();
+        return;
+    }
+}

@@ -1,0 +1,31 @@
+function Main.main 1
+push constant 0
+pop local 0
+call Board.openingScreen 0
+pop temp 0
+label WHILE_EXP0
+push local 0
+push constant 0
+eq
+not
+if-goto WHILE_END0
+call Keyboard.keyPressed 0
+pop local 0
+push local 0
+push constant 32
+eq
+not
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push constant 0
+pop local 0
+label IF_FALSE0
+goto WHILE_EXP0
+label WHILE_END0
+call Board.drawBoard 0
+pop temp 0
+call gameloop.startGame 0
+pop temp 0
+push constant 0
+return
