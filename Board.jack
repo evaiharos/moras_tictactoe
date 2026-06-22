@@ -1,0 +1,370 @@
+class Board {
+    function void draw_x(int polje){
+        if(polje = 1){
+            do Screen.drawLine(143, 46, 177, 76);
+            do Screen.drawLine(144, 46, 178, 76);
+            do Screen.drawLine(145, 46, 179, 76);
+            do Screen.drawLine(146, 46, 180, 76);
+            do Screen.drawLine(147, 46, 181, 76);
+
+            do Screen.drawLine(177, 46, 143, 76);
+            do Screen.drawLine(178, 46, 144, 76);
+            do Screen.drawLine(179, 46, 145, 76);
+            do Screen.drawLine(180, 46, 146, 76);
+            do Screen.drawLine(181, 46, 147, 76);
+        }
+        if(polje = 2){
+            do Screen.drawLine(221, 46, 255, 76);
+            do Screen.drawLine(222, 46, 256, 76);
+            do Screen.drawLine(223, 46, 257, 76);
+            do Screen.drawLine(224, 46, 258, 76);
+            do Screen.drawLine(255, 46, 221, 76);
+    
+            do Screen.drawLine(255, 46, 221, 76);
+            do Screen.drawLine(256, 46, 222, 76);
+            do Screen.drawLine(257, 46, 223, 76);
+            do Screen.drawLine(258, 46, 224, 76);
+            do Screen.drawLine(259, 46, 225, 76);
+        }
+        if(polje = 3){
+            do Screen.drawLine(299, 46, 333, 76);
+            do Screen.drawLine(300, 46, 334, 76);
+            do Screen.drawLine(301, 46, 335, 76);
+            do Screen.drawLine(302, 46, 336, 76);
+            do Screen.drawLine(303, 46, 337, 76);
+    
+            do Screen.drawLine(336, 46, 299, 76);
+            do Screen.drawLine(337, 46, 300, 76);
+            do Screen.drawLine(338, 46, 301, 76);
+            do Screen.drawLine(339, 46, 302, 76);
+            do Screen.drawLine(340, 46, 303, 76);
+        }
+        if(polje = 4){
+            do Screen.drawLine(143, 114, 177, 144);
+            do Screen.drawLine(144, 114, 178, 144);
+            do Screen.drawLine(145, 114, 179, 144);
+            do Screen.drawLine(146, 114, 180, 144);
+            do Screen.drawLine(147, 114, 181, 144);
+
+            do Screen.drawLine(177, 114, 143, 144);
+            do Screen.drawLine(178, 114, 144, 144);
+            do Screen.drawLine(179, 114, 145, 144);
+            do Screen.drawLine(180, 114, 146, 144);
+            do Screen.drawLine(181, 114, 147, 144);
+        }
+        if(polje = 5){
+            do Screen.drawLine(221, 114, 255, 144);
+            do Screen.drawLine(222, 114, 256, 144);
+            do Screen.drawLine(223, 114, 257, 144);
+            do Screen.drawLine(224, 114, 258, 144);
+            do Screen.drawLine(225, 114, 259, 144);
+
+            do Screen.drawLine(255, 114, 221, 144);
+            do Screen.drawLine(256, 114, 222, 144);
+            do Screen.drawLine(257, 114, 223, 144);
+            do Screen.drawLine(258, 114, 224, 144);
+            do Screen.drawLine(259, 114, 225, 144);
+        }
+        if(polje = 6){
+            do Screen.drawLine(299, 114, 333, 144);
+            do Screen.drawLine(300, 114, 334, 144);
+            do Screen.drawLine(301, 114, 335, 144);
+            do Screen.drawLine(302, 114, 336, 144);
+            do Screen.drawLine(303, 114, 337, 144);
+
+            do Screen.drawLine(336, 114, 299, 144);
+            do Screen.drawLine(337, 114, 300, 144);
+            do Screen.drawLine(338, 114, 301, 144);
+            do Screen.drawLine(339, 114, 302, 144);
+            do Screen.drawLine(340, 114, 303, 144);
+        }
+        if(polje = 7){
+            do Screen.drawLine(143, 182, 177, 212);
+            do Screen.drawLine(144, 182, 178, 212);
+            do Screen.drawLine(145, 182, 179, 212);
+            do Screen.drawLine(146, 182, 180, 212);
+            do Screen.drawLine(147, 182, 181, 212);
+
+            do Screen.drawLine(177, 182, 143, 212);
+            do Screen.drawLine(178, 182, 144, 212);
+            do Screen.drawLine(179, 182, 145, 212);
+            do Screen.drawLine(180, 182, 146, 212);
+            do Screen.drawLine(181, 182, 147, 212);
+        }
+        if(polje = 8){
+            do Screen.drawLine(221, 182, 255, 212);
+            do Screen.drawLine(222, 182, 256, 212);
+            do Screen.drawLine(223, 182, 257, 212);
+            do Screen.drawLine(224, 182, 258, 212);
+            do Screen.drawLine(225, 182, 259, 212);
+
+            do Screen.drawLine(255, 182, 221, 212);
+            do Screen.drawLine(256, 182, 222, 212);
+            do Screen.drawLine(257, 182, 223, 212);
+            do Screen.drawLine(258, 182, 224, 212);
+            do Screen.drawLine(259, 182, 225, 212);
+        }
+        if(polje = 9){
+            do Screen.drawLine(299, 182, 333, 212);
+            do Screen.drawLine(300, 182, 334, 212);
+            do Screen.drawLine(301, 182, 335, 212);
+            do Screen.drawLine(302, 182, 336, 212);
+            do Screen.drawLine(303, 182, 337, 212);
+
+            do Screen.drawLine(336, 182, 299, 212);
+            do Screen.drawLine(337, 182, 300, 212);
+            do Screen.drawLine(338, 182, 301, 212);
+            do Screen.drawLine(339, 182, 302, 212);
+            do Screen.drawLine(340, 182, 303, 212);
+        }
+        
+        return;
+    }
+
+    function void draw_y(int polje){
+        if(polje = 1){
+            do Screen.drawCircle(158, 61, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(158, 61, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+
+        }
+        if(polje = 2){
+            do Screen.drawCircle(238, 61, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(238, 61, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+        }
+        if(polje = 3){
+            do Screen.drawCircle(318, 61, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(318, 61, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+        }
+        if(polje = 4){
+            do Screen.drawCircle(158, 132, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(158, 132, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+        }
+        if(polje = 5){
+            do Screen.drawCircle(238, 132, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(238, 132, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+        }
+        if(polje = 6){
+            do Screen.drawCircle(318, 132, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(318, 132, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+        }
+        if(polje = 7){
+            do Screen.drawCircle(158, 200, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(158, 200, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+        }
+        if(polje = 8){
+            do Screen.drawCircle(238, 200, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(238, 200, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+        }
+        
+        if(polje = 9){
+            do Screen.drawCircle(318, 200, 19);
+
+            do Screen.setColor(false);  // false = bijelo (briše)
+            do Screen.drawCircle(318, 200, 16);
+            do Screen.setColor(true);   // vrati na crno za daljnje crtanje
+        }
+        
+        return;
+    }
+
+    function void openingScreen(){
+        do Screen.clearScreen();
+        do Output.moveCursor(10, 26);
+        do Output.printString("TIC TAC TOE");
+        do Output.moveCursor(13, 18);
+        do Output.printString("+--------------------------+");
+        do Output.moveCursor(14, 18);
+        do Output.printString("| Stisni Space za pocetak! |");
+        do Output.moveCursor(15, 18);
+        do Output.printString("+--------------------------+");
+        
+        do Output.moveCursor(2, 2); 
+        do Output.printString("X O X O X O X O X O X O X O X O X O X O X O X O X O X O X O");
+        do Output.moveCursor(21, 2); 
+        do Output.printString("O X O X O X O X O X O X O X O X O X O X O X O X O X O X O X");
+        do Output.moveCursor(3, 2);
+        do Output.printString("O");
+        do Output.moveCursor(4, 2);
+        do Output.printString("X");
+        do Output.moveCursor(5, 2);
+        do Output.printString("O");
+        do Output.moveCursor(6, 2);
+        do Output.printString("X");
+        do Output.moveCursor(7, 2);
+        do Output.printString("O");
+        do Output.moveCursor(8, 2);
+        do Output.printString("X");
+        do Output.moveCursor(9, 2);
+        do Output.printString("O");
+        do Output.moveCursor(10, 2);
+        do Output.printString("X");
+        do Output.moveCursor(11, 2);
+        do Output.printString("O");
+        do Output.moveCursor(12, 2);
+        do Output.printString("X");
+        do Output.moveCursor(13, 2);
+        do Output.printString("O");
+        do Output.moveCursor(14, 2);
+        do Output.printString("X");
+        do Output.moveCursor(15, 2);
+        do Output.printString("O");
+        do Output.moveCursor(16, 2);
+        do Output.printString("X");
+        do Output.moveCursor(17, 2);
+        do Output.printString("O");
+        do Output.moveCursor(18, 2);
+        do Output.printString("X");
+        do Output.moveCursor(19, 2);
+        do Output.printString("O");
+        do Output.moveCursor(20, 2);
+        do Output.printString("X");
+        
+        do Output.moveCursor(3, 60);
+        do Output.printString("X");
+        do Output.moveCursor(4, 60);
+        do Output.printString("O");
+        do Output.moveCursor(5, 60);
+        do Output.printString("X");
+        do Output.moveCursor(6, 60);
+        do Output.printString("O");
+        do Output.moveCursor(7, 60);
+        do Output.printString("X");
+        do Output.moveCursor(8, 60);
+        do Output.printString("O");
+        do Output.moveCursor(9, 60);
+        do Output.printString("X");
+        do Output.moveCursor(10, 60);
+        do Output.printString("O");
+        do Output.moveCursor(11, 60);
+        do Output.printString("X");
+        do Output.moveCursor(12, 60);
+        do Output.printString("O");
+        do Output.moveCursor(13, 60);
+        do Output.printString("X");
+        do Output.moveCursor(14, 60);
+        do Output.printString("O");
+        do Output.moveCursor(15, 60);
+        do Output.printString("X");
+        do Output.moveCursor(16, 60);
+        do Output.printString("O");
+        do Output.moveCursor(17, 60);
+        do Output.printString("X");
+        do Output.moveCursor(18, 60);
+        do Output.printString("O");
+        do Output.moveCursor(19, 60);
+        do Output.printString("X");
+        do Output.moveCursor(20, 60);
+        do Output.printString("O");
+
+        return;
+    }
+
+    function void board() {
+        // Horizontalne linije (debljina 2 piksela)
+        do Screen.drawLine(125, 91, 355, 91);
+        do Screen.drawLine(125, 92, 355, 92);
+        
+        do Screen.drawLine(125, 165, 355, 165);
+        do Screen.drawLine(125, 166, 355, 166);
+        
+        // Vertikalne (debljina 2 piksela)
+        do Screen.drawLine(195, 31, 195, 225);
+        do Screen.drawLine(196, 31, 196, 225);
+        
+        do Screen.drawLine(280, 31, 280, 225);
+        do Screen.drawLine(281, 31, 281, 225);
+        return;
+    }
+    
+    function void drawBoard() {
+        var int key;
+        let key = 0;
+        do Screen.clearScreen();
+        
+
+        do Board.board();
+
+        do Output.moveCursor(5, 20);
+        do Output.printString("1");
+        do Output.moveCursor(5, 29);
+        do Output.printString("2");
+        do Output.moveCursor(5, 39);
+        do Output.printString("3");
+        do Output.moveCursor(11, 20);
+        do Output.printString("4");
+        do Output.moveCursor(11, 29);
+        do Output.printString("5");
+        do Output.moveCursor(11, 39);
+        do Output.printString("6");
+        do Output.moveCursor(18, 20);
+        do Output.printString("7");
+        do Output.moveCursor(18, 29);
+        do Output.printString("8");
+        do Output.moveCursor(18, 39);
+        do Output.printString("9");
+
+        do Output.moveCursor(5, 48);
+        do Output.printString("ZAPAMTI:");
+        do Output.moveCursor(6, 48);
+        do Output.printString("tijekom igranja");
+        do Output.moveCursor(7, 48);
+        do Output.printString("izaberi polje");
+        do Output.moveCursor(8, 48);
+        do Output.printString("pritiskom");
+        do Output.moveCursor(9, 48);
+        do Output.printString("odgovarajuceg");
+        do Output.moveCursor(10, 48);
+        do Output.printString("broja (1-9)");
+
+        do Output.moveCursor(11, 1);
+        do Output.printString("Igrac X pocinje!");
+        
+        do Output.moveCursor(21, 36);
+        do Output.printString("Pritisni Space za nastavak");
+        
+        
+        while (~(Keyboard.keyPressed() = 0)) {
+            // Čekaj dok su tipke pritisnute
+        }
+    
+        // Zatim čekaj novi pritisak Space
+        while (key = 0) {
+            let key = Keyboard.keyPressed();
+
+            if (~(key = 32)) {
+                let key = 0;
+            }
+        }
+    
+        // Ponovo sačekaj da se tipka otpusti prije povratka
+        while (~(Keyboard.keyPressed() = 0)) {
+            // cekaj otpuštanje
+        }
+
+        return;
+    }
+}
